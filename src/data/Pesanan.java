@@ -1,12 +1,8 @@
 package data;
 
-public class Pesanan {
-  private String[] dataPesanan = {
-    //di input dari menu mau
-    //di sin udah ada nilai default buat lembar
-  };
+import java.util.ArrayList;
 
-  public String[] getDataPesanan() {
-    return dataPesanan;
-  }
-} 
+public class Pesanan {
+  public ArrayList<String> dataPesanan = new ArrayList<String>();
+  public ArrayList<Integer> dataKuantitasPesanan = new ArrayList<Integer>();
+}

@@ -1,12 +1,13 @@
 package data;
 
 public class JenisPesanan {
-  private String[] dataJenisPesanan = {
+  public String[] dataJenisPesanan = {
     "Print",
     "Fotocopy"
   };
 
-  public String[] getDataPesanan() {
-    return dataJenisPesanan;
-  }
+  public int[] hargaDataJenisPesanan = {
+    1000,
+    500
+  };
 }

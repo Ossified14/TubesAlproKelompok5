@@ -7,6 +7,6 @@ public class MenuService {
   TampilkanPesanan tampilkanPesanan = new TampilkanPesanan();
 
   public void tampilkanPesananUser() {
-    tampilkanPesanan.tampilkan();
+    tampilkanPesanan.TampilkanPesanan();
   }
 }

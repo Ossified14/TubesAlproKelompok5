@@ -1,5 +1,17 @@
 package metode;
 
+import data.Pesanan;
+import java.util.Scanner;
+
 public class TambahJenisLayanan {
-  //ambil data dari JenisPesanan.java dan masukkan ke data Pesanan.java
+  private static Scanner input = new Scanner(System.in);
+
+  Pesanan pesanan = new Pesanan();
+
+  private void tambahPesanan(String e) {
+    System.out.print("input pesanan:");
+    String x = input.nextLine();
+
+    pesanan.dataPesanan.add(x);
+  }
 }
