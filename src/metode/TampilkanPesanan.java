@@ -6,7 +6,7 @@ public class TampilkanPesanan {
 
   private static Pesanan pesanan = new Pesanan();
   
-  public static  void TampilkanPesanan(){
+  public static  void tampilkanPesanan(){
     for (int i = 0; i < pesanan.dataPesanan.size(); i++) {
       System.out.println("nama: "+pesanan.dataPesanan.get(i));
       System.out.println("jumlah: "+pesanan.dataTotalLembar.get(i));
@@ -23,6 +23,6 @@ public class TampilkanPesanan {
     pesanan.dataTotalLembar.add(1);
 
 
-    TampilkanPesanan();
+    tampilkanPesanan();
   }
 }
