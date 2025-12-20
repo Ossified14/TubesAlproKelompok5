@@ -7,5 +7,4 @@ public class HitungTotalBiaya {
   //dan hitung harganya sesuai dengan bobot
   //untuk harga layanan dan jumlah lembarnya
   private Pesanan pesanan = new Pesanan();
-
 }

@@ -12,4 +12,4 @@ public class MenuData {
   public String[] getMenu() {
     return menu;
   }
-} 
+}
