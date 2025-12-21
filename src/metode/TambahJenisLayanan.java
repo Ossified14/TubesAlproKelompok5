@@ -10,7 +10,7 @@ public class TambahJenisLayanan {
   private static Pesanan pesanan = new Pesanan();
   private static JenisPesanan jenisPesanan= new JenisPesanan();
 
-  private void tambahPesanan() {
+  public void tambahPesanan() {
     System.out.print("Masukkan angka dari Jenis Layanan Yang Diinginkan (Print(1)/Fotocopy(2)): ");
     int Jenis = input.nextInt();
 
