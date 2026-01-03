@@ -9,6 +9,11 @@ public class TampilkanPesanan {
     
     for (String item : data.getDataPesanan()) {
       System.out.println(item);
+
+      public static void TampilkanPesanan(int index){
+       System.out.println("===PESANAN KE -"+ (index +1)"===");
+       System.out.println();
+      }
     }
   }
 }
