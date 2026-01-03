@@ -6,10 +6,12 @@ public class MenuData {
     "Ubah jumlah lembar",
     "Tampilkan pesanan",
     "Hapus layanan",
-    "Hitung total biaya"
+    "Hitung total biaya",
+    "Tampilkan Menu",
+    "Keluar Menu"
   };
 
   public String[] getMenu() {
     return menu;
   }
-} 
+}
