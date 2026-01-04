@@ -30,7 +30,7 @@ public class MenuView {
         service.ubahJumlahLembar.ubahJumlahLembar();
       }
       if (pilihMenu == 3) {
-        service.tampilkanPesanan.tampilkanPesanan();
+        service.tampilkanPesanan.TampilkanPesanan();
       }
       if (pilihMenu == 4) {
         service.hapusLayanan.HapusPesanan();

@@ -24,16 +24,5 @@ public class TampilkanPesanan {
       TampilkanPesanan(i);
     }
   }
-  public static void main(String[] args) {
-    pesanan.dataPesanan.add("Pulpen");
-    pesanan.dataHarga.add(5000);
-    pesanan.dataTotalLembar.add(1);
-
-    pesanan.dataPesanan.add("Pensil");
-    pesanan.dataHarga.add(3500);
-    pesanan.dataTotalLembar.add(1);
-
-    TampilkanPesanan();
-  }
-  }
+}
 

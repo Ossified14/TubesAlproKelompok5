@@ -8,7 +8,7 @@ public class HitungTotalBiaya {
   //untuk harga layanan dan jumlah lembarnya
   private static Pesanan pesanan = new Pesanan();
 
-  public static int hitungTotalBiaya(){
+  public static void hitungTotalBiaya(){
 
     int total = 0;
 
@@ -16,21 +16,6 @@ public class HitungTotalBiaya {
       total += pesanan.dataHarga.get(i) * pesanan.dataTotalLembar.get(i);
     }
 
-    return total;
-  }
-
-    public static void main(String[] args) {
-    // TampilkanPesanan test = new TampilkanPesanan();
-
-    pesanan.dataPesanan.add("Pulpen");
-    pesanan.dataHarga.add(5000);
-    pesanan.dataTotalLembar.add(1);
-    pesanan.dataPesanan.add("pensil");
-    pesanan.dataHarga.add(3500);
-    pesanan.dataTotalLembar.add(1);
-
-    System.out.println("totalnya :" + hitungTotalBiaya());
-
-    TampilkanPesanan.tampilkanPesanan();
+    System.out.println(total);
   }
 }
