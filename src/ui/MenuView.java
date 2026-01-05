@@ -43,6 +43,9 @@ public class MenuView {
           System.out.println((i+1)+ ". " + menuData.getMenu()[i]);
         }
       }
+      if (pilihMenu > 7) {
+        System.out.println("Input invalid");
+      }
       if (pilihMenu == 7) {
         condition = false;
       }
